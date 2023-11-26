@@ -1,0 +1,45 @@
+// bootstrap css
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+// custom style
+*{
+  margin:0;
+  padding:0;
+}
+main{
+  height:vh;
+}
+.cu-footercontainer{
+  line-height:0!important;
+  color:rgba(255,255,255,0.55);
+}
+.cu-fp{
+  font-size:.75rem;
+  line-height:1.5;
+  margin-bottom:0px;
+  
+}
+.fullscreen-modal {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-body {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.nav-item {
+  text-align: center;
+  text-transform:uppercase;
+  font-size:1.3rem;
+  margin:8px;
+}
+.sidebar .navbar-nav{
+  position:relative;
+  top:40%;
+  transform:translateY(-50%);
+}
+
